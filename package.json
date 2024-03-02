@@ -1,0 +1,26 @@
+{
+  "name": "mangobot",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Estrax",
+  "license": "MINA-MANGO",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  }
+}
